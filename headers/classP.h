@@ -10,8 +10,8 @@ public:
 
     Class_Point(int x1,int y1);
 
-    //float Distance (Class_Point A, Class_Point B);
 };
 
+double Distance (Class_Point A, Class_Point B);
 
 #endif //NEWPROJECTFROMZEROTOHERO_CLASSP_H
