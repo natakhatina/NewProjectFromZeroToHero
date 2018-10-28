@@ -14,7 +14,7 @@ Class_Point::Class_Point(int x1, int y1) {
     y=y1;
 }
 
-double Distance (Class_Point A,Class_Point B){
-    double dist=sqrt(pow((A.getX()-B.getX()),2)+pow((A.getY()-B.getY()),2));
+double Class_Point::Distance (){
+    double dist=sqrt(pow(x,2)+pow(y,2));
     return dist;
 }

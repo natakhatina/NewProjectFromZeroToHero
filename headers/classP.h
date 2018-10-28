@@ -10,8 +10,10 @@ public:
 
     Class_Point(int x1,int y1);
 
+    double Distance (); // расстояние от нуля до точки
+
 };
 
-double Distance (Class_Point A, Class_Point B);
+
 
 #endif //NEWPROJECTFROMZEROTOHERO_CLASSP_H
