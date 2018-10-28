@@ -1,10 +1,12 @@
 #include <iostream>
-#include "headers/header.h"
+#include "headers/classP.h"
+#include "realisation/classP.cpp"
+
 
 int main() {
-    Class_Point CoorSys;
-    CoorSys.setX(5);
-    CoorSys.setY(6);
-    std::cout << CoorSys.getX() << std::endl;
+    Class_Point A(0,0),B(3,4);
+
+    double dist=Distance(A,B);
+    std::cout << dist << std::endl;
     return 0;
 }
